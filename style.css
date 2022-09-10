@@ -1,0 +1,104 @@
+header{
+    height: 110px;
+    width: 100% ;
+    background-color:#F4AD21 ;
+}
+body{
+    
+  background-color:black;
+  background-image:url(file:///home/ouattara/T%C3%A9l%C3%A9chargements/photo.png);
+  background-attachment:fixed;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+img{
+    height: 110px;
+    width: 220px;
+    margin-left: 100px;
+}
+
+p1{ 
+    margin-left: 40%;
+    position: absolute;
+    margin-top: 55px;
+    
+}
+
+p2{
+    margin-left: 44%;
+    position: absolute;
+    margin-top: 55px;
+}
+p3{
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 55px;
+}
+p4{
+    margin-left: 55%;
+    position: absolute;
+    margin-top: 55px;
+}
+p5{
+    margin-left: 59%;
+    position: absolute;
+    margin-top: 55px;
+}
+p6{
+    margin-left: 65%;
+    position: absolute;
+    margin-top: 55px;
+}
+p7{
+    margin-left: 69%;
+    margin-top: 55px;
+    position: absolute;
+}
+h1a{
+    color: black;
+    margin-top: 250px;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 23%;
+}
+h1b{
+
+    color: black;
+    margin-top: 250px;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 42%;
+}
+h1c{
+    color: black;
+    margin-top: 250px;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 61%;
+}
+p{
+    margin-top: 315px;
+    position: absolute;
+    margin-left: 29%;
+    color: peru;
+    font-size: 20px;
+}
+button{ 
+    width: 170px;
+    font-size: 15px;
+    background-color: red;
+    margin: 12px;
+   margin-left: 42%;
+     position:absolute; 
+     height: 30px;
+     margin-top: 355px;
+
+  
+}
+
+
+
+
+
