@@ -1,102 +1,175 @@
 header{
     height: 110px;
     width: 100% ;
-    background-color:#F4AD21 ;
+    background-color:white ;
 }
 
-header .logo{
-   
+.logo{
+   background:url(images/logo1.png) no-repeat;
+    height: 20px;
+    width: 40px;
+    margin-left: 20px;
+    position: relative;
+
 }
 
 
 body{
-    
-  background-color:black;
-  background-image:url(file:///home/ouattara/T%C3%A9l%C3%A9chargements/photo.png);
-  background-attachment:fixed;
+  /*background-attachment:fixed;*/
     padding: 0px;
     margin: 0px;
     width: 100%;
 }
 
-.li1{ 
-    margin-left: 55%;
+.contenant {
+    background:url(images/photo.png);
+    position: relative;
+    text-align: center;
+    height: 600px;
+}
+h1{
     position: absolute;
-    list-style-type: none;
+    top: 30%;
+    left: 30%;
+    color: white;
+}
+.h4a{
+    position: absolute;
+    top: 40%;
+    left: 31%;
+    color: white;
+}
+
+
+.button1{ 
+    width: 200px;
+    background-color: brown;    
+     position: absolute; 
+     height: 30px;
+     top: 60%; 
+     margin-right: 50px;
+     
+}
+.p1{
+    top: 65%;
+    position: absolute;
+    left: 30%;
+    color: white;
+}
+.button2{
+    height: 120px;
+    width: 100%;
+    background-color: brown;
     
 }
-
-.li2{
-    margin-left: 57%;
-    position: absolute;
-    list-style: none;
-    margin-bottom: 20px;
-}
-.li3{
-    margin-left: 62%;
-    position: absolute;
-    list-style: none;
-}
-.li4{
-    margin-left: 67%;
-    position: absolute;
-    list-style: none;
-}
-.li5{
-    margin-left: 72%;
-    position: absolute;
-    list-style: none;
-}
-.li6{
-    margin-left: 76%;
-    position: absolute;
-    list-style: none;
-}
-.li7{
-    margin-left: 81%;
-    list-style: none;
-}
-h1a{
-    color: black;
-    margin-top: 250px;
-    position: absolute;
-    font-size: 50px;
-    margin-left: 23%;
-}
-h1b{
-
-    color: black;
-    margin-top: 250px;
-    position: absolute;
-    font-size: 50px;
-    margin-left: 42%;
-}
-h1c{
-    color: black;
-    margin-top: 250px;
-    position: absolute;
-    font-size: 50px;
-    margin-left: 61%;
-}
-p{
-    margin-top: 315px;
-    position: absolute;
-    margin-left: 29%;
-    color: peru;
-    font-size: 20px;
-}
-button{ 
-    width: 170px;
-    font-size: 15px;
+.button3{
+    height: 5px;
+    width: 100px;
     background-color: red;
-    margin: 12px;
-   margin-left: 42%;
-     position:absolute; 
-     height: 30px;
-     margin-top: 355px; 
 }
-.li3 img{
-    line-height: 10%;
+.h4b{
+    color: brown;
+   position: absolute;
+   left: 130px;
+   border-top: 2px;
+   text-decoration-line: underline;
+   text-decoration-style : dotted
+}
+.p2{
+    position: absolute;
+    left: 135px;
+    top: 130%;
+    text-decoration-line: underline;
+   text-decoration-style : dotted
+}
+.p3{
+    position: absolute;
+    left: 135px;
+    top: 135%;
+    font-size: 12px;
+}
+#cercle {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: wheat;
+    left: 60%;
+    position: absolute;
+    top: 127%;
+}
+.h4c{
+    position: absolute;
+    color: brown;
+    left: 65%;
+}
+.p4{
+    position: absolute;
+    left: 65%;
+    top: 129%;
+    font-size: 12px;
+}
+#cercle2{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: wheat;
+    left: 60%;
+    position: absolute;
+    top: 140%;
+}
+.h4d{
+    position: absolute;
+    color: brown;
+    left: 65%;
+    top: 137%;
+}
+.p5{
+    position: absolute;
+    left: 65%;
+    top: 142%;
+    font-size: 12px;
+}
+#cercle3{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: wheat;
+    left: 60%;
+    position: absolute;
+    top:152% ;
+}
+.h4e{
+    position: absolute;
+    color: brown;
+    left: 65%;
+    top: 150%;
+}
+.p6{
+    position: absolute;
+    left: 65%;
+    top: 155%;
+    font-size: 12px;
+}
+#cercle4{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: wheat;
+    left: 60%;
+    position: absolute;
+    top:164%;
+}
+.h4f{
+    position: absolute;
+    color: brown;
+    left: 65%;
+    top: 162%
+}
+.p7{
+    position: absolute;
+    left: 65%;
+    top: 167%;
+    font-size: 12px;
 }
 
 
